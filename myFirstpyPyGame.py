@@ -52,5 +52,18 @@ pixelArray = pygame.pixelArray(windowSurface)
 pixelArray[480][380] = BLUE 
 del pixArray
 
+# Draw the text onto the surface.
+windowSurface.Blit(text, textRect
+
+#Update Pygame Display
+pygame,display.update()
+
+# Run game loop.
+while True:
+    for event in pygame.event.get():
+        if event.type == QUIT:
+            pygame.quit
+            sys.exit()
+
 
 
